@@ -1,0 +1,11 @@
+function main;
+beginparams
+endparams
+beginlocals
+endlocals
+beginbody
+    while 1<2
+	 beginloop
+	   continue;
+	endloop;
+endbody
