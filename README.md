@@ -19,7 +19,7 @@ MiniL language to mil language using Flex and Bison
     except the one that exists implicitly, and is parsed once by Bison.  Thus 
     the program does everything in one pass.  And since I did not use Bison's 
     stack, I built my own data structures to hold nested control structures in
-    the language.  
+    the language.  All the code is in lexParse.h.
         
     How the program works:  
     As stated, there is no explicit parse tree.  Instead, a string pointer 
