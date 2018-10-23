@@ -35,7 +35,7 @@ MiniL language to mil language using Flex and Bison
     in the symbol table.
     
     The program uses a linked stack for the symbol table. That's overkill for a 
-    longuage with only two context levels: global and function.  But I wanted to 
+    longuage with only two context levels: global and function.  But I thought to 
     reuse the code later for a bigger language.  Allowing for classes, functions 
     and blocks or lambda functions, there is potential for many context levels.
     Using the stack structure, a context can 'see' its parent contexts, but does 
